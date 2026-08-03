@@ -326,6 +326,14 @@ button:focus-visible {
   border: 1px solid var(--border-soft);
 }
 
+.person.lead {
+  border-color: #d6d6d3;
+}
+
+.person.lead .person-role {
+  color: var(--ink);
+}
+
 .person-role {
   font-size: 9.5px;
   font-weight: 800;
