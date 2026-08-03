@@ -545,7 +545,7 @@
 
   function close() {
     viewer.hidden = true;
-    frame.src = '';
+    frame.src = 'about:blank';   // '' would resolve to this page and reload it
     document.body.style.overflow = '';
     if (last) last.focus();
   }
