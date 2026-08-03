@@ -257,7 +257,8 @@ button:focus-visible {
 }
 
 .card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 20px 22px 18px;
   background: var(--panel);
   border: 1px solid #e5e5e5;
@@ -289,6 +290,7 @@ button:focus-visible {
 }
 
 .card-desc {
+  flex: 1;
   margin: 8px 0 0;
   font-size: 13px;
   font-weight: 500;
