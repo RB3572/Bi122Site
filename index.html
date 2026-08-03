@@ -555,7 +555,11 @@
     if (!link) return;
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
     e.preventDefault();
-    open(link.getAttribute('href'), link.querySelector('.file-name').textContent.trim());
+    // Clone so the "Review" badge inside .file-name is not read as part of the title.
+    var label = link.querySelector('.file-name').cloneNode(true),
+        badge = label.querySelector('.rev');
+    if (badge) badge.remove();
+    open(link.getAttribute('href'), label.textContent.trim());
   });
 
   document.getElementById('viewerClose').addEventListener('click', close);
