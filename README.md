@@ -6,11 +6,20 @@ Static site: plain HTML and CSS, no build step, no JavaScript. Deploys to
 [bi122resources.rishib.com](https://bi122resources.rishib.com) via Vercel on push to `main`.
 
 ```
-index.html    the whole page
-styles.css    design tokens and layout
-materials/    20 lecture handouts and review decks (PDF, ~113 MB)
-images/       teaching staff portraits
+index.html      landing page — course facts and links to each section
+materials.html  lecture handouts, with the in-page document viewer
+deadlines.html  problem set due dates, points, grade weighting
+staff.html      instructor, TAs, office hours
+schedule.html   week-by-week lecture topics and readings
+syllabus.html   description, text, grading scale, collaboration policy
+styles.css      design tokens and layout, shared by every page
+materials/      20 lecture handouts and review decks (PDF, ~113 MB)
+images/         teaching staff portraits, plus thumbs/ for handout covers
 ```
+
+There is no build step and no templating, so the `<nav>` and `<footer>` blocks are duplicated
+across the six pages. Editing one means editing all six — the nav marks the current page with
+`class="active"` and `aria-current="page"`, so keep that in sync too.
 
 ## Materials
 
