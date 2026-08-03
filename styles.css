@@ -545,12 +545,6 @@ a {
   object-fit: cover;
   border-radius: 2px;
   background: var(--surface);
-  filter: grayscale(1) contrast(1.02);
-  transition: filter 0.25s var(--ease);
-}
-
-.person:hover img {
-  filter: grayscale(0);
 }
 
 .person-role {
@@ -586,27 +580,6 @@ a {
   color: var(--ink);
   text-decoration: underline;
   text-underline-offset: 2px;
-}
-
-.alumni {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: baseline;
-}
-
-.alum {
-  font-size: 13.5px;
-  font-weight: 650;
-}
-
-.alum span {
-  font-size: 10.5px;
-  font-weight: 700;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--muted-light);
-  margin-left: 7px;
 }
 
 /* ── Materials ─────────────────────────────────────────────────────── */
