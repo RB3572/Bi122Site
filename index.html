@@ -1,88 +1,452 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Resources and support for Bi 122 Genetics." />
-    <title>Bi 122 | Genetics</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="wordmark" href="/" aria-label="Bi 122 home">Bi 122<span>.</span></a>
-      <nav aria-label="Main navigation">
-        <a href="#course">Course</a>
-        <a href="#support">Support</a>
-        <a class="nav-link" href="https://www.its.caltech.edu/~bi122/">Course site <span aria-hidden="true">↗</span></a>
-      </nav>
-    </header>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bi 122 · Genetics — Caltech</title>
+<meta name="description" content="Bi 122: Genetics — course syllabus, teaching staff, office hours, and lecture schedule. BBE, California Institute of Technology, Fall 2025.">
+<meta name="theme-color" content="#f7f7f5">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <main>
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow"><span></span> Caltech biology</p>
-          <h1 id="hero-title">Bi 122<br /><em>Genetics</em></h1>
-          <p class="hero-text">A place for course resources, problem-solving, and the questions that make genetics click.</p>
-          <a class="button" href="#course">Explore the course <span aria-hidden="true">↓</span></a>
-        </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="art-label">01 / 02</div>
-          <svg viewBox="0 0 480 520" role="presentation">
-            <path class="strand strand-one" d="M151 25c175 64 175 143 0 208s-175 144 0 208c63 24 94 49 101 79" />
-            <path class="strand strand-two" d="M329 25c-175 64-175 143 0 208s175 144 0 208c-63 24-94 49-101 79" />
-            <path class="rung" d="M176 54h128M143 103h194M132 153h216M150 203h180M181 253h118M181 306h118M150 356h180M132 406h216M143 456h194M176 505h128" />
-            <circle class="marker" cx="240" cy="257" r="8" />
-          </svg>
-          <p class="art-caption">Patterns, inheritance,<br />and variation.</p>
-        </div>
-      </section>
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-mark">Bi 122 <span>Genetics</span></div>
+    <div class="nav-links">
+      <a href="#staff">Staff</a>
+      <a href="#hours">Office Hours</a>
+      <a href="#about">About</a>
+      <a href="#grading">Grading</a>
+      <a href="#policy">Collaboration</a>
+      <a href="#schedule">Schedule</a>
+    </div>
+  </div>
+</nav>
 
-      <section class="course-strip" id="course" aria-label="Course details">
-        <div><span class="label">Format</span><strong>Lecture + discussion</strong></div>
-        <div><span class="label">Units</span><strong>9 units</strong></div>
-        <div><span class="label">Meets</span><strong>Tue &amp; Thu · 1:00 PM · KRK119</strong></div>
-      </section>
+<div class="shell">
 
-      <section class="support" id="support">
-        <div class="section-heading">
-          <p class="eyebrow"><span></span> Start here</p>
-          <h2>Make sense<br />of the <em>sequence.</em></h2>
+  <header class="hero">
+    <div class="eyebrow">Caltech · BBE · Fall 2025</div>
+    <h1>Bi 122: Genetics</h1>
+    <p class="lede">
+      A lecture and discussion course covering the basic principles of genetics — from the classic
+      experiments of Mendel to the modern sciences of gene regulation and genomics.
+    </p>
+    <div class="hero-facts">
+      <span class="fact"><b>When</b> TR 1:00–2:30 pm</span>
+      <span class="fact"><b>Where</b> 125 Kerckhoff</span>
+      <span class="fact"><b>Units</b> 9 (3-0-6)</span>
+      <span class="fact"><b>Term</b> First</span>
+      <span class="fact"><b>Prereq</b> Bi 8 or Bi 9</span>
+    </div>
+  </header>
+
+  <!-- ── Staff ──────────────────────────────────────────────── -->
+  <section class="section" id="staff">
+    <div class="section-head">
+      <h2>Teaching Staff</h2>
+      <span class="section-note">Reach out any time — email is best</span>
+    </div>
+
+    <div class="people people-lead">
+      <div class="person lead">
+        <div class="avatar">BH</div>
+        <div>
+          <div class="person-role">Instructor</div>
+          <div class="person-name">Bruce Hay</div>
+          <a class="person-mail" href="mailto:haybruce@caltech.edu">haybruce@caltech.edu</a>
         </div>
-        <div class="support-copy">
-          <p>Use this space to find the materials and guidance that help you move from a genetic question to a clear explanation.</p>
-          <div class="resource-grid">
-            <a class="resource" href="https://www.its.caltech.edu/~bi122/ps.htm"><span>Problem sets</span><b>↗</b></a>
-            <a class="resource" href="https://www.its.caltech.edu/~bi122/lecture1.htm"><span>Lecture notes</span><b>↗</b></a>
-            <a class="resource" href="https://www.its.caltech.edu/~bi122/schedule.htm"><span>Schedule</span><b>↗</b></a>
-            <a class="resource" href="https://www.its.caltech.edu/~bi122/Readings.htm"><span>Other readings</span><b>↗</b></a>
+      </div>
+    </div>
+
+    <div class="people">
+      <div class="person">
+        <div class="avatar">EO</div>
+        <div>
+          <div class="person-role">Teaching Assistant</div>
+          <div class="person-name">Emma Olinger</div>
+          <a class="person-mail" href="mailto:eolinger@caltech.edu">eolinger@caltech.edu</a>
+        </div>
+      </div>
+      <div class="person">
+        <div class="avatar">AJ</div>
+        <div>
+          <div class="person-role">Teaching Assistant</div>
+          <div class="person-name">Abdullah Jauhar</div>
+          <a class="person-mail" href="mailto:mjauhar@caltech.edu">mjauhar@caltech.edu</a>
+        </div>
+      </div>
+      <div class="person">
+        <div class="avatar">CW</div>
+        <div>
+          <div class="person-role">Teaching Assistant</div>
+          <div class="person-name">Cherise Wong</div>
+          <a class="person-mail" href="mailto:cherisewong@caltech.edu">cherisewong@caltech.edu</a>
+        </div>
+      </div>
+      <div class="person">
+        <div class="avatar">IM</div>
+        <div>
+          <div class="person-role">Teaching Assistant</div>
+          <div class="person-name">Indeever Madireddy</div>
+          <a class="person-mail" href="mailto:imadired@caltech.edu">imadired@caltech.edu</a>
+        </div>
+      </div>
+      <div class="person">
+        <div class="avatar">RB</div>
+        <div>
+          <div class="person-role">Teaching Assistant</div>
+          <div class="person-name">Rishi Bhargava</div>
+          <a class="person-mail" href="mailto:rbhargav@caltech.edu">rbhargav@caltech.edu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Office hours ───────────────────────────────────────── -->
+  <section class="section" id="hours">
+    <div class="section-head">
+      <h2>Office Hours</h2>
+      <span class="section-note">Weekly, in person</span>
+    </div>
+    <div class="panel">
+      <div class="hours">
+        <div class="hour">
+          <div class="hour-day">Monday</div>
+          <div class="hour-time">6:00 – 7:00 pm</div>
+          <div class="hour-place">Chen 362</div>
+        </div>
+        <div class="hour">
+          <div class="hour-day">Tuesday</div>
+          <div class="hour-time">9:00 – 10:00 am</div>
+          <div class="hour-place">Chen 362</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ──────────────────────────────────────────────── -->
+  <section class="section" id="about">
+    <div class="section-head"><h2>Course Description</h2></div>
+    <div class="grid grid-2">
+      <div class="panel panel-pad">
+        <p>
+          <strong>Bi 122. Genetics.</strong> 9 units (3-0-6); first term.
+          Prerequisites: Bi 8 or Bi 9, or instructor's permission. Lecture and discussion course
+          covering basic principles of genetics. Not open to freshmen.
+          Instructors: Hay, Staff.
+        </p>
+        <p>
+          Welcome to Bi 122! This course covers a broad range of topics in genetics, from the classic
+          experiments of Mendel to the modern sciences of gene regulation and genomics.
+        </p>
+        <p>
+          Lectures are usually supplemented with handouts summarizing the material covered. Because a
+          good deal of what is presented in class does not appear in the book, it is worth attending
+          at least a few of the lectures.
+        </p>
+      </div>
+
+      <div class="panel panel-pad">
+        <div class="book">
+          <div class="book-spine" aria-hidden="true"></div>
+          <div>
+            <div class="person-role">Recommended text</div>
+            <div class="book-title">An Introduction to Genetic Analysis</div>
+            <div class="book-meta">
+              A. J. F. Griffiths et al. · 12th edition<br>
+              W. H. Freeman and Company
+            </div>
+            <span class="isbn">ISBN 978-1-319-28646-0</span>
           </div>
         </div>
-      </section>
+        <p style="margin-top:16px">
+          Referred to as <strong>“G”</strong> in the schedule below.
+        </p>
+        <p>
+          Chapters 7–9 should be reviewed — skimmed for terms and general sense — if you have not
+          taken Bi 8. If you are unsure of your mastery of the Bi 8/9 material, or came from another
+          department or school without an equivalent course, read those chapters. For some parts of
+          the course the book does not provide adequate information, or presents it with a slant
+          different from what will be covered in class.
+        </p>
+      </div>
+    </div>
+  </section>
 
-      <section class="team" aria-labelledby="team-title">
-        <div>
-          <p class="eyebrow"><span></span> Your teaching team</p>
-          <h2 id="team-title">Bring us<br />your <em>questions.</em></h2>
-        </div>
-        <div class="team-card" id="ta-rishi">
-          <p class="team-number">01</p>
-          <h3>Rishi Bhargava</h3>
-          <p>Teaching assistant</p>
-        </div>
-        <div class="team-card" id="ta-indeever">
-          <p class="team-number">02</p>
-          <h3>Indeever Madireddy</h3>
-          <p>Teaching assistant</p>
-        </div>
-      </section>
-    </main>
+  <!-- ── Grading ────────────────────────────────────────────── -->
+  <section class="section" id="grading">
+    <div class="section-head">
+      <h2>Assessment</h2>
+      <span class="section-note">Lowest problem set dropped</span>
+    </div>
 
-    <footer>
-      <span>Bi 122 · Genetics</span>
-      <span>Caltech · Course resources</span>
-    </footer>
-  </body>
+    <div class="panel" style="margin-bottom:16px">
+      <div class="weights">
+        <div class="weight">
+          <div class="weight-value">60%</div>
+          <div class="weight-label">Problem Sets</div>
+          <div class="weight-sub">8 issued · best 7 counted</div>
+        </div>
+        <div class="weight">
+          <div class="weight-value">20%</div>
+          <div class="weight-label">Midterm</div>
+          <div class="weight-sub">In person · open book</div>
+        </div>
+        <div class="weight">
+          <div class="weight-value">20%</div>
+          <div class="weight-label">Final</div>
+          <div class="weight-sub">In person · open book</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="panel panel-pad">
+        <div class="person-role" style="margin-bottom:8px">Problem sets</div>
+        <p>
+          Problem sets are handed out on Thursday after class and due back by the following Thursday
+          at <strong>11:59 pm</strong> — except the last one, which will be handed out on a date to
+          be determined.
+        </p>
+        <p>
+          Try to get them in on time. Sets less than <strong>24 hours</strong> late lose 10% of the
+          grade; up to <strong>48 hours</strong> late, 20%. In general, problem sets should not be
+          handed in later than that.
+        </p>
+        <p>
+          Sets are graded from 0 to 100%. In calculating the final grade the lowest score is
+          discarded; the remaining seven count equally and together make up 60% of the final grade.
+        </p>
+        <div class="callout">
+          <div>
+            <span class="callout-tag">If something comes up</span>
+            Illness reported with a valid notice from the Health Center — and other life-impacting
+            events — are accepted as reason for late work without penalty. The important thing is to
+            tell the TAs and Professor Hay in a timely manner so we can work with you.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-pad">
+        <div class="person-role" style="margin-bottom:8px">Letter grades</div>
+        <div class="scale">
+          <span class="grade"><b>A</b> 91–100%</span>
+          <span class="grade"><b>B</b> 81–90%</span>
+          <span class="grade"><b>C</b> 71–80%</span>
+          <span class="grade"><b>D</b> 65–70%</span>
+          <span class="grade"><b>F</b> &lt; 65%</span>
+        </div>
+        <p style="margin-top:16px">
+          Sometimes a test turns out to be much harder than we thought it would be. If that happens
+          we will change the conversion of points to grades so that a score lower than 91% might be
+          an A, and so on. Any change of this sort will be announced.
+        </p>
+        <p>
+          We will <strong>not</strong> change the conversion in the opposite direction — under any
+          circumstances, a 91% is an A.
+        </p>
+        <div class="callout">
+          <div>
+            <span class="callout-tag">Exam format</span>
+            The midterm and final are limited-time, in-person, open-book exams.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Collaboration ──────────────────────────────────────── -->
+  <section class="section" id="policy">
+    <div class="section-head"><h2>Collaboration Policy</h2></div>
+    <div class="panel panel-pad">
+      <p>
+        <strong>Problem sets.</strong> You must work completely independently on each problem set for
+        <strong>three hours</strong>. After that you are free to discuss the problems. You may use
+        visual aids during these discussions — the digital equivalent of chalkboards, marker boards,
+        or scratch paper.
+      </p>
+      <p>
+        You are not permitted, in these discussions, to use another student's answer to any problem
+        when it is in its final form, ready to submit. You must write up your solutions independently
+        of others, and not use any recorded notes of discussion sessions. There is to be no division
+        of effort.
+      </p>
+      <p>
+        <strong>Exams.</strong> No collaboration, either verbal or written. Personal calculators are
+        permitted. Each exam counts for one-fifth of the final grade.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Schedule ───────────────────────────────────────────── -->
+  <section class="section" id="schedule">
+    <div class="section-head">
+      <h2>Course Schedule</h2>
+      <span class="section-note">“G” = Griffiths, <em>An Introduction to Genetic Analysis</em></span>
+    </div>
+
+    <div class="panel">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Week</th>
+              <th scope="col">Date</th>
+              <th scope="col">Lecture Topic</th>
+              <th scope="col">Readings</th>
+              <th scope="col">Due</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="week-start">
+              <td class="week">1</td><td class="date">9/30</td>
+              <td class="topic">Chromosomes, meiosis</td>
+              <td class="reading">G 1–3 · review 7–9</td><td></td>
+            </tr>
+            <tr>
+              <td class="week"></td><td class="date">10/2</td>
+              <td class="topic">Mendel and genes</td>
+              <td class="reading">G 2–3, 5</td><td></td>
+            </tr>
+
+            <tr class="week-start">
+              <td class="week">2</td><td class="date">10/7</td>
+              <td class="topic">Sex determination / dosage</td>
+              <td class="reading">G 1–3</td><td></td>
+            </tr>
+            <tr>
+              <td class="week"></td><td class="date">10/9</td>
+              <td class="topic">Quantitative traits, linkage, and mapping</td>
+              <td class="reading">G 4, 19</td>
+              <td><span class="tag due">Problem Set 1</span></td>
+            </tr>
+
+            <tr class="week-start">
+              <td class="week">3</td><td class="date">10/14</td>
+              <td class="topic">Prokaryotes</td>
+              <td class="reading">G 5</td><td></td>
+            </tr>
+            <tr>
+              <td class="week"></td><td class="date">10/16</td>
+              <td class="topic">Mechanisms of recombination</td>
+              <td class="reading">G 15</td>
+              <td><span class="tag due">Problem Set 2</span></td>
+            </tr>
+
+            <tr class="week-start">
+              <td class="week">4</td><td class="date">10/21</td>
+              <td class="topic">Rearrangements</td>
+              <td class="reading">G 17</td><td></td>
+            </tr>
+            <tr>
+              <td class="week"></td><td class="date">10/23</td>
+              <td class="topic">Mobile genetic elements</td>
+              <td class="reading">G 16</td>
+              <td><span class="tag due">Problem Set 3</span></td>
+            </tr>
+
+            <tr class="week-start">
+              <td class="week">5</td><td class="date">10/28</td>
+              <td class="topic">Epigenetics and cloning</td>
+              <td class="reading">G 12</td><td></td>
+            </tr>
+            <tr>
+              <td class="week"></td><td class="date">10/30</td>
+              <td class="topic">Extranuclear inheritance and prions</td>
+              <td class="reading">G 3</td>
+              <td>
+                <span class="tag due">Problem Set 4</span>
+                <span class="tag exam">Midterm out</span>
+              </td>
+            </tr>
+
+            <tr class="week-start">
+              <td class="week">6</td><td class="date">11/4</td>
+              <td class="topic">Gene regulation</td>
+              <td class="reading">G 11, 12</td>
+              <td><span class="tag exam">Midterm due 5 pm</span></td>
+            </tr>
+            <tr>
+              <td class="week"></td><td class="date">11/6</td>
+              <td class="topic">Genomics</td>
+              <td class="reading">G 14</td><td></td>
+            </tr>
+
+            <tr class="week-start">
+              <td class="week">7</td><td class="date">11/11</td>
+              <td class="topic">Mutation and cancer</td>
+              <td class="reading">G 13, 15</td><td></td>
+            </tr>
+            <tr>
+              <td class="week"></td><td class="date">11/13</td>
+              <td class="topic">Genetic screens</td>
+              <td class="reading">G 13, 15</td>
+              <td><span class="tag due">Problem Set 5</span></td>
+            </tr>
+
+            <tr class="week-start">
+              <td class="week">8</td><td class="date">11/18</td>
+              <td class="topic">Development 1</td>
+              <td class="reading">G 13</td><td></td>
+            </tr>
+            <tr>
+              <td class="week"></td><td class="date">11/20</td>
+              <td class="topic">Development 2</td>
+              <td class="reading">G 13</td>
+              <td><span class="tag due">Problem Set 6</span></td>
+            </tr>
+
+            <tr class="week-start">
+              <td class="week">9</td><td class="date">11/25</td>
+              <td class="topic">Population genetics 1</td>
+              <td class="reading">G 18, 20</td><td></td>
+            </tr>
+            <tr class="row-off">
+              <td class="week"></td><td class="date">11/27</td>
+              <td class="topic">Thanksgiving — no lecture</td>
+              <td class="reading">—</td>
+              <td><span class="tag due">Problem Set 7</span></td>
+            </tr>
+
+            <tr class="week-start">
+              <td class="week">10</td><td class="date">12/2</td>
+              <td class="topic">Population genetics 2</td>
+              <td class="reading">G 18, 20</td><td></td>
+            </tr>
+            <tr>
+              <td class="week"></td><td class="date">12/4</td>
+              <td class="topic">Immunogenetics</td>
+              <td class="reading">—</td>
+              <td><span class="tag due">Problem Set 8</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="exam-strip">
+        <div class="exam-item">
+          <div class="exam-label">In-person midterm</div>
+          <div class="exam-when">Sunday, November 2 · 1–3 pm</div>
+        </div>
+        <div class="exam-item">
+          <div class="exam-label">Midterm window</div>
+          <div class="exam-when">Out 10/30 · due 11/4, 5 pm</div>
+        </div>
+        <div class="exam-item">
+          <div class="exam-label">Final exam</div>
+          <div class="exam-when">Out 12/9 · due 12/12, 5 pm</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>Bi 122 · Genetics — Division of Biology and Biological Engineering, Caltech</span>
+    <span>Fall 2025</span>
+  </footer>
+
+</div>
+</body>
 </html>
