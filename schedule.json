@@ -1,0 +1,31 @@
+{
+  "_comment": "Single source of truth for the lecture schedule. Edit this, then run: python3 tools/build-schedule.py — it regenerates both the table in schedule.html and the subscribable feed at schedule.ics. Bump _sequence whenever you change an existing lecture's date, time or title so subscribed calendars accept the update.",
+  "_sequence": 0,
+  "term": "Fall 2025",
+  "timezone": "America/Los_Angeles",
+  "location": "125 Kerckhoff, California Institute of Technology",
+  "start": "13:00",
+  "end": "14:30",
+  "lectures": [
+    { "week": 1,  "date": "2025-09-30", "topic": "Chromosomes, meiosis",                     "readings": "G 1–3 · review 7–9" },
+    { "week": 1,  "date": "2025-10-02", "topic": "Mendel and genes",                         "readings": "G 2–3, 5" },
+    { "week": 2,  "date": "2025-10-07", "topic": "Sex determination / dosage",               "readings": "G 1–3" },
+    { "week": 2,  "date": "2025-10-09", "topic": "Quantitative traits, linkage, and mapping","readings": "G 4, 19" },
+    { "week": 3,  "date": "2025-10-14", "topic": "Prokaryotes",                              "readings": "G 5" },
+    { "week": 3,  "date": "2025-10-16", "topic": "Mechanisms of recombination",              "readings": "G 15" },
+    { "week": 4,  "date": "2025-10-21", "topic": "Rearrangements",                           "readings": "G 17" },
+    { "week": 4,  "date": "2025-10-23", "topic": "Mobile genetic elements",                  "readings": "G 16" },
+    { "week": 5,  "date": "2025-10-28", "topic": "Epigenetics and cloning",                  "readings": "G 12" },
+    { "week": 5,  "date": "2025-10-30", "topic": "Extranuclear inheritance and prions",      "readings": "G 3" },
+    { "week": 6,  "date": "2025-11-04", "topic": "Gene regulation",                          "readings": "G 11, 12" },
+    { "week": 6,  "date": "2025-11-06", "topic": "Genomics",                                 "readings": "G 14" },
+    { "week": 7,  "date": "2025-11-11", "topic": "Mutation and cancer",                      "readings": "G 13, 15" },
+    { "week": 7,  "date": "2025-11-13", "topic": "Genetic screens",                          "readings": "G 13, 15" },
+    { "week": 8,  "date": "2025-11-18", "topic": "Development 1",                            "readings": "G 13" },
+    { "week": 8,  "date": "2025-11-20", "topic": "Development 2",                            "readings": "G 13" },
+    { "week": 9,  "date": "2025-11-25", "topic": "Population genetics 1",                    "readings": "G 18, 20" },
+    { "week": 9,  "date": "2025-11-27", "topic": "Thanksgiving — no lecture",                "readings": "—", "cancelled": true },
+    { "week": 10, "date": "2025-12-02", "topic": "Population genetics 2",                    "readings": "G 18, 20" },
+    { "week": 10, "date": "2025-12-04", "topic": "Immunogenetics",                           "readings": "—" }
+  ]
+}

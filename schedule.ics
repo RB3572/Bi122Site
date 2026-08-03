@@ -1,0 +1,309 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bi 122 Genetics//Course Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bi 122 · Genetics (Fall 2025)
+X-WR-TIMEZONE:America/Los_Angeles
+X-WR-CALDESC:Lecture schedule for Bi 122 Genetics, Caltech. Maintained at
+  https://bi122resources.rishib.com/schedule.html
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bi122-2025-09-30@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20250930T130000
+DTEND;TZID=America/Los_Angeles:20250930T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Chromosomes\, meiosis
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 1. Reading: G 1–3 · review 7–9. Handouts and syllab
+ us: https://bi122resources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-10-02@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251002T130000
+DTEND;TZID=America/Los_Angeles:20251002T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Mendel and genes
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 1. Reading: G 2–3\, 5. Handouts and syllabus: https://
+ bi122resources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-10-07@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251007T130000
+DTEND;TZID=America/Los_Angeles:20251007T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Sex determination / dosage
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 2. Reading: G 1–3. Handouts and syllabus: https://bi12
+ 2resources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-10-09@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251009T130000
+DTEND;TZID=America/Los_Angeles:20251009T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Quantitative traits\, linkage\, and mapping
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 2. Reading: G 4\, 19. Handouts and syllabus: https://bi1
+ 22resources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-10-14@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251014T130000
+DTEND;TZID=America/Los_Angeles:20251014T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Prokaryotes
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 3. Reading: G 5. Handouts and syllabus: https://bi122res
+ ources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-10-16@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251016T130000
+DTEND;TZID=America/Los_Angeles:20251016T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Mechanisms of recombination
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 3. Reading: G 15. Handouts and syllabus: https://bi122re
+ sources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-10-21@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251021T130000
+DTEND;TZID=America/Los_Angeles:20251021T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Rearrangements
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 4. Reading: G 17. Handouts and syllabus: https://bi122re
+ sources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-10-23@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251023T130000
+DTEND;TZID=America/Los_Angeles:20251023T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Mobile genetic elements
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 4. Reading: G 16. Handouts and syllabus: https://bi122re
+ sources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-10-28@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251028T130000
+DTEND;TZID=America/Los_Angeles:20251028T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Epigenetics and cloning
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 5. Reading: G 12. Handouts and syllabus: https://bi122re
+ sources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-10-30@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251030T130000
+DTEND;TZID=America/Los_Angeles:20251030T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Extranuclear inheritance and prions
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 5. Reading: G 3. Handouts and syllabus: https://bi122res
+ ources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-11-04@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251104T130000
+DTEND;TZID=America/Los_Angeles:20251104T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Gene regulation
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 6. Reading: G 11\, 12. Handouts and syllabus: https://bi
+ 122resources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-11-06@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251106T130000
+DTEND;TZID=America/Los_Angeles:20251106T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Genomics
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 6. Reading: G 14. Handouts and syllabus: https://bi122re
+ sources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-11-11@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251111T130000
+DTEND;TZID=America/Los_Angeles:20251111T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Mutation and cancer
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 7. Reading: G 13\, 15. Handouts and syllabus: https://bi
+ 122resources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-11-13@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251113T130000
+DTEND;TZID=America/Los_Angeles:20251113T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Genetic screens
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 7. Reading: G 13\, 15. Handouts and syllabus: https://bi
+ 122resources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-11-18@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251118T130000
+DTEND;TZID=America/Los_Angeles:20251118T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Development 1
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 8. Reading: G 13. Handouts and syllabus: https://bi122re
+ sources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-11-20@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251120T130000
+DTEND;TZID=America/Los_Angeles:20251120T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Development 2
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 8. Reading: G 13. Handouts and syllabus: https://bi122re
+ sources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-11-25@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251125T130000
+DTEND;TZID=America/Los_Angeles:20251125T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Population genetics 1
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 9. Reading: G 18\, 20. Handouts and syllabus: https://bi
+ 122resources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-11-27@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20251127
+DTEND;VALUE=DATE:20251128
+TRANSP:TRANSPARENT
+SUMMARY:Bi 122 — Thanksgiving — no lecture
+DESCRIPTION:Week 9. Handouts and syllabus: https://bi122resources.rishib.
+ com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-12-02@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251202T130000
+DTEND;TZID=America/Los_Angeles:20251202T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Population genetics 2
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 10. Reading: G 18\, 20. Handouts and syllabus: https://b
+ i122resources.rishib.com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bi122-2025-12-04@bi122resources.rishib.com
+DTSTAMP:20260803T224955Z
+SEQUENCE:0
+DTSTART;TZID=America/Los_Angeles:20251204T130000
+DTEND;TZID=America/Los_Angeles:20251204T143000
+TRANSP:OPAQUE
+SUMMARY:Bi 122 — Immunogenetics
+LOCATION:125 Kerckhoff\, California Institute of Technology
+DESCRIPTION:Week 10. Handouts and syllabus: https://bi122resources.rishib
+ .com/
+URL:https://bi122resources.rishib.com/schedule.html
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

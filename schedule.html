@@ -64,6 +64,7 @@
             </tr>
           </thead>
           <tbody>
+            <!-- BEGIN schedule -->
             <tr><td class="week">1</td><td class="date">9/30</td><td class="topic">Chromosomes, meiosis</td><td class="reading">G 1–3 · review 7–9</td></tr>
             <tr><td class="week"></td><td class="date">10/2</td><td class="topic">Mendel and genes</td><td class="reading">G 2–3, 5</td></tr>
             <tr class="rule"><td class="week">2</td><td class="date">10/7</td><td class="topic">Sex determination / dosage</td><td class="reading">G 1–3</td></tr>
@@ -84,8 +85,31 @@
             <tr class="row-off"><td class="week"></td><td class="date">11/27</td><td class="topic">Thanksgiving — no lecture</td><td class="reading">—</td></tr>
             <tr class="rule"><td class="week">10</td><td class="date">12/2</td><td class="topic">Population genetics 2</td><td class="reading">G 18, 20</td></tr>
             <tr><td class="week"></td><td class="date">12/4</td><td class="topic">Immunogenetics</td><td class="reading">—</td></tr>
+            <!-- END schedule -->
           </tbody>
         </table>
+      </div>
+    </div>
+    <div class="subscribe">
+      <div class="subscribe-main">
+        <div class="sub">Subscribe to this schedule</div>
+        <p class="subscribe-desc">
+          Add the lectures to your own calendar once. If the schedule changes later, your calendar
+          picks the change up on its own — there is nothing to re-add.
+        </p>
+        <div class="subscribe-actions">
+          <a class="btn btn-primary" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fbi122resources.rishib.com%2Fschedule.ics" target="_blank" rel="noopener">Add to Google Calendar</a>
+          <a class="btn" href="webcal://bi122resources.rishib.com/schedule.ics">Apple Calendar / Outlook</a>
+        </div>
+      </div>
+      <div class="subscribe-url">
+        <div class="sub">Feed address</div>
+        <code id="feedUrl">https://bi122resources.rishib.com/schedule.ics</code>
+        <button class="btn btn-small" type="button" id="copyFeed" data-url="https://bi122resources.rishib.com/schedule.ics">Copy</button>
+        <p class="subscribe-note">
+          Calendar apps re-check subscribed feeds on their own timetable — Google is typically a few
+          hours behind, sometimes up to a day. Time-critical changes are worth announcing as well.
+        </p>
       </div>
     </div>
   </section>
@@ -113,5 +137,19 @@
     <div class="footer-meta">Fall 2025</div>
   </div>
 </footer>
+
+<script>
+(function () {
+  var btn = document.getElementById('copyFeed');
+  if (!btn || !navigator.clipboard) return;
+  btn.addEventListener('click', function () {
+    navigator.clipboard.writeText(btn.dataset.url).then(function () {
+      var was = btn.textContent;
+      btn.textContent = 'Copied';
+      setTimeout(function () { btn.textContent = was; }, 1600);
+    });
+  });
+})();
+</script>
 </body>
 </html>
