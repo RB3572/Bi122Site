@@ -16,7 +16,7 @@
   --rule-soft: #e9e9e3;
   --rule-strong: #14140f;
   --orange: #ff6e1e;          /* Caltech wordmark orange, sampled from the mark */
-  --orange-deep: #d4530b;     /* darkened for text/underline contrast on paper */
+  --orange-deep: #bf4a0a;     /* darkened for text: 5.0:1 on white, passes AA */
   --danger: #8c2b20;
   --danger-bg: #fbf3f1;
   --danger-rule: #e6cfc9;
